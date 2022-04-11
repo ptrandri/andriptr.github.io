@@ -1,0 +1,149 @@
+@media (min-width: 992px) {
+  .navbar .nab-link {
+    padding: 5px;
+    position: relative;
+  }
+  .navbar .nav-link::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #ffffff;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+    transform: scale(0);
+  }
+  .navbar .nav-link.active::after,
+  .navbar .nav-link.hover::after {
+    transform: scale(1);
+  }
+}
+
+.test {
+  display: inline-block;
+  width: 125px;
+  height: 39px;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #0d6efd;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 39px;
+  transition: 0.2s ease-in;
+}
+h3.title-section {
+  font-size: 30px;
+  color: #000000;
+  margin-top: 77px;
+  margin-bottom: 10px;
+}
+h3.title-section span {
+  font-weight: bold;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e2edff;
+}
+
+#about {
+  padding-top: 6rem;
+  background-color: #ffffff;
+}
+
+#skills {
+  background-color: #e2edff;
+}
+#license {
+  background-color: #e2edff;
+}
+#resume {
+  background-color: #ffffff;
+}
+section {
+  padding-top: 5rem;
+}
+
+footer {
+  padding: 5px 0;
+  background-color: #f0f0f0;
+}
+footer .sosmed a {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #333;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 5px;
+  transition: 0.5s ease-in;
+}
+footer .sosmed a.linkedin {
+  background: url(img/icon-sosmed/linkedin.svg) no-repeat scroll center center / auto;
+  background-size: 15px;
+}
+footer .sosmed a.ig {
+  background: url(img/icon-sosmed/ig.svg) no-repeat scroll center center / auto;
+  background-size: 15px;
+}
+
+footer .sosmed a.email {
+  background: url(img/icon-sosmed/email.svg) no-repeat scroll center center / auto;
+  background-size: 15px;
+}
+/*--------------------------------------------------------------
+# Resume
+--------------------------------------------------------------*/
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #45505b;
+}
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #0563bb;
+  position: relative;
+}
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #0563bb;
+  margin-bottom: 10px;
+}
+.resume .resume-item h5 {
+  font-size: 16px;
+  background: #f7f8f9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+}
+.resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #0563bb;
+}
